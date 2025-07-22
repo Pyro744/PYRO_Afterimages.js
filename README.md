@@ -19,5 +19,7 @@ for (var i = 0; i < amount; i++)
     }
 ```
 
+At the moment, the sprites z value is modified. This makes movements that go up look fine. However, due to the nature of this, movements that go down will have the enemy's base sprite cover up their afterimages.
+
 Since this new plugin relies on this one, it will need to be placed after it.  
 Keep in mind that this might mess with the order of existing plugins such as ``"YEP_WeatherInBattle"``. If such issues occur, simply place them after this plugin.
