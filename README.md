@@ -12,6 +12,7 @@ This plugin adds extra copies of the enemy image to the Sprite_Set, you can acce
 
 An example:
 ```
+let amount = BattleManager._spriteset._afterimages.length;
 for (var i = 0; i < amount; i++)
     {
       BattleManager._spriteset._afterimages[i]._offsetY = ((amount + 1)- i);
