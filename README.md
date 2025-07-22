@@ -1,6 +1,9 @@
 # PYRO_Afterimages.js
 Allows battlers in OMORI (and possibly other RPG MAKER MV games) to have afterimages.
 
+## ISSUES
+At the moment, the first sprite is, for some reason unbeknownst to myself, treated as an enemy sprite. So it will turn grey when killed. No other sprites are affected. Hit effects and selection markers are applied to ALL sprites. This should be an easy fix, which I will employ in the near future.
+
 ## Installation
 Install by downloading this plugin. Move the plugin to your projects js/plugin folder. Open the Plugin Manager in RPG MAKER MV by pressing the puzzle pieces in the top bar and scroll down to the bottom of the plugin list.  
 From there, click on an empty spot and double click it. Click the Name dropdown bar and find "PYRO_Afterimages".  
